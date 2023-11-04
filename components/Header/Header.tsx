@@ -3,11 +3,12 @@ import LogoWhite from "public/logo-white.svg";
 
 import styles from "./Header.module.scss"
 
-const Header  = (src:any) => {
+
+
+const Header  = () => {
     return <header className={styles.header}>
-        <Image src={LogoWhite} width={236} alt="#"/>
+        <Image src={LogoWhite} width={236} alt="Logo"/>
     </header>
 }
-
 
 export default Header
