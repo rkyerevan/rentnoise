@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import LogoWhite from 'public/logo-white.svg'
-import Header from "components/Header/Header";
+import Header from 'components/Header/Header'
 
 export default function Home() {
   return (
