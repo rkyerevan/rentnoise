@@ -1,3 +1,37 @@
 .header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 18px;
+
+
+  .logo{
+    width: 180px;
+  }
+
+  .link{
+    color: white;
+    font-size: 16px;
+    padding: 0 8px;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:last-child{
+      padding-right: 0;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .link{
+      padding: 0 16px;
+
+      &:last-child{
+        padding-right: 0;
+      }
+    }
+  }
+
+
+
 }
