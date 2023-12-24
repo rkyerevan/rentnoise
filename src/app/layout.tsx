@@ -6,7 +6,7 @@ import BackgroundImage from "components/BackgroundImage/BackgroundImage";
 
 import mobileBackgroundImg from "public/background_mobile.png";
 
-import "./globals.css";
+import "./globals.scss";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -24,9 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={montserrat.className}>
         <Header />
-        <BackgroundImage src={mobileBackgroundImg}>
         {children}
-        </BackgroundImage>
       </body>
     </html>
   );
