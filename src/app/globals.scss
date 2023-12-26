@@ -6,16 +6,19 @@ body{
   height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  //align-items: center;
   padding: 0 20px;
 }
 
 .heroTitle{
   font-weight: bold;
   text-align: center;
-  margin: auto;
+  margin: 80px auto auto;
+  font-size: 28px;
+  //margin: auto;
 }
 
 .announcement{
-  margin-top: 20px;
+  margin: 20px auto auto;
+  text-align: center;
 }

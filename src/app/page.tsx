@@ -10,7 +10,7 @@ export default function Home() {
     <main className="mainContainer">
       {/*<BackgroundImage src={mobileBackgroundImg} alt="test">*/}
         <h1 className="heroTitle">
-          Pump Up Your Event with Rent Noise
+          Pump Up Your Event with Rent Noise <br/>
           <div>The Premier Speaker Rental in Los Angeles</div>
         </h1>
 
